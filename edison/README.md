@@ -23,7 +23,7 @@ configured.
 
 My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 * Download the Arduino IDE.
-	* I started at http://playground.arduino.cc//Linux/Fedora
+	* Start at http://playground.arduino.cc//Linux/Fedora
 	* Follow the "Download" link in the main menu.
 	* Follow the "Linux 64 bits" link on the right side of the page.
 	* Donate if you are so inclined, or follow the "Just Download" link.
@@ -31,4 +31,6 @@ My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 	* Extract to your desktop.
 	* In a terminal, run the install.sh script.
 	* Run the "arduino" command to start the IDE.
+* Grant access to USB serial ports.
+	* sudo usermod -a -G dialout <non-root-user>
 
