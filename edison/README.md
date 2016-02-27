@@ -32,5 +32,5 @@ My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 	* In a terminal, run the install.sh script.
 	* Run the "arduino" command to start the IDE.
 * Grant access to USB serial ports.
-	* sudo usermod -a -G dialout <non-root-user>
+	* sudo usermod -a -G dialout "non-root-user"
 
