@@ -33,4 +33,14 @@ My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 	* Run the "arduino" command to start the IDE.
 * Grant access to USB serial ports.
 	* sudo usermod -a -G dialout "non-root-user"
-
+* Install and test terminal.
+	* sudo yum install screen
+	* Connect USB to host computer and console connector on base block
+	* screen /dev/ttyUSB0 115200
+	* Hit return a few times then login as root (not password)
+* Connect to wifi.
+	* configure_edison --wifi
+	* follow prompts to scan for networks or enter a hidden SSID
+	* answer prompts for network type (WPA, WEP), and password, if required
+	* curl http://www.redhat.com
+	* it's working if HTML comes back
