@@ -44,6 +44,6 @@ My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 	* answer prompts for network type (WPA, WEP), and password, if required
 	* curl http://www.redhat.com
 	* it's working if HTML comes back
-* Configure wifi so that it boots to available networks.
+* Configure wifi so that it boots to available networks for headless operation.
 	* http://rwx.io/blog/2015/08/16/edison-wifi-config/
 
