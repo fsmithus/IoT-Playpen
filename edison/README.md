@@ -38,9 +38,12 @@ My development machine is an x86 laptop running Red Hat Enterprise Linux 7.
 	* Connect USB to host computer and console connector on base block
 	* screen /dev/ttyUSB0 115200
 	* Hit return a few times then login as root (not password)
-* Connect to wifi.
+* Connect edison to wifi.
 	* configure_edison --wifi
 	* follow prompts to scan for networks or enter a hidden SSID
 	* answer prompts for network type (WPA, WEP), and password, if required
 	* curl http://www.redhat.com
 	* it's working if HTML comes back
+* Configure wifi so that it boots to available networks.
+	* http://rwx.io/blog/2015/08/16/edison-wifi-config/
+
